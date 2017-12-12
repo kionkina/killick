@@ -20,7 +20,8 @@ var distance = function (x0, y0, x1, y1) {
 
 
 var findIt = function(e) {
-    distToTarget = distance(targetX, targetY, 
+    distToTarget = distance(targetX, targetY, e.X, e.Y);
+    console.log(distToTarget);
 };
 
 /*
